@@ -26,7 +26,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import threading
 
 # ========== CONFIGURATION ==========
-OPENWEATHER_API_KEY = "d9078dfef252a81a934bf1e083533475"
+OPENWEATHER_API_KEY = "Your_API_KEY"
 DEFAULT_CITY = "Poipet"
 DEFAULT_UNITS = "metric"
 REFRESH_INTERVAL = 60000  # 60 seconds in milliseconds
@@ -217,3 +217,4 @@ chart_canvas.get_tk_widget().pack(fill="both", expand=True)
 update_data()
 
 root.mainloop()
+
